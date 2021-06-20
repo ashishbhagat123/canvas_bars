@@ -1,16 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: #FFFFF0;
+    background: black;
+    height: 100vh;
+}
 .button_wrapper {
-    width: 20%;
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
 }
-.button_wrapper button{
-    border: 1px solid rgb(51, 118, 132);
+.button_wrapper button {
+    border: 2px solid whitesmoke;
     background: none;
     outline: none;
     margin: 1px;
@@ -18,7 +23,7 @@
 }
 .button_wrapper button:nth-child(even) {
     width: 120px;
-    height:55px;
+    height: 55px;
     border-radius: 40px;
 }
 .button_wrapper button:nth-child(odd) {
@@ -26,6 +31,9 @@
     height: 35px;
     border-radius: 20px;
 }
-.button_wrapper i{
-    color: rgb(54, 180, 184);
+.button_wrapper i {
+    color:#00BFFF;
+}
+canvas {
+    width: 95vw;
 }
